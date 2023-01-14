@@ -1,0 +1,1188 @@
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    
+}
+#Corps_Page
+{
+    margin: 50px;
+}
+/*Header*/
+
+header
+{
+    margin: 15px 50px 50px 50px;
+}
+header ul
+{
+    list-style-type: none;
+}
+nav ul
+{
+    display: flex;
+    margin: 40px;
+}
+nav a
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 5px solid #0065FC;
+}
+
+.titrenav:visited
+{
+    color: black;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+/*Body*/
+
+/*Recherche*/
+
+#Recherche
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+form
+{
+    border: 1px #F2F2F2 solid;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 333px;
+    height: 40px;
+    
+}
+.fa-solid.fa-magnifying-glass
+{
+    display: none;
+}
+.loupe
+{
+    display: none;
+}
+.fa-solid.fa-location-dot
+{
+    line-height: 40px;
+    text-align: center;
+    background-color: #F2F2F2;
+    font-size: 15px;
+    float: left;
+    height: 100%;
+    width: 12%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+#Localisation
+{
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 58%;
+    height: 100%;
+    border: none;
+}
+#rechercher
+{
+    background-color: #0065fc;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+    float: right;
+    height: 100%;
+    width: 30%;
+    border:0 none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*Filtres*/
+
+.filtres
+{
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+    width: 50%;
+}
+.filter
+{
+    display: flex;
+    margin-left: 60px;
+}
+.filtres p
+{
+    font-weight: bolder;
+    align-items: flex-start;
+    width: 2%;
+}
+.filtres a
+{
+    text-decoration: none;
+    color: black;
+}
+.filtres a:visited
+{
+    color: black;
+}
+.button_eco
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px #f2f2f2 solid;
+    border-left: 2px transparent;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 77%;
+
+}
+.fa-solid.fa-money-bill-wave
+{
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: visible;
+    margin-right: 10px;
+}
+.button_eco:hover
+{
+    background-color: #deebff;
+}
+.button_fami
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px #f2f2f2 solid;
+    border-left: 2px transparent;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 77%;
+
+}
+.fa-solid.fa-child-reaching
+{
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: visible;
+    margin-right: 10px;
+}
+.button_fami:hover
+{
+    background-color: #deebff;
+}
+.button_rom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px #f2f2f2 solid;
+    border-left: 2px transparent;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 77%;
+
+}
+.fa-solid.fa-heart
+{
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: visible;
+    margin-right: 10px;
+}
+.button_rom:hover
+{
+    background-color: #deebff;
+}
+.button_animaux
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 2px #f2f2f2 solid;
+    border-left: 2px transparent;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 77%;
+
+}
+.fa-solid.fa-dog
+{
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px;
+    overflow: visible;
+    margin-right: 10px;
+}
+.button_animaux:hover
+{
+    background-color: #deebff;
+}
+#filtres + p
+{
+    display: flex;
+    align-items: center;
+
+}
+.fa-solid.fa-info
+{
+    color: #0065FC;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px;
+    padding-left: 9px;
+    margin-right:10px;
+    border:2px #F2F2F2 solid;
+    border-radius: 50%;
+    width: 8px;
+}
+
+/*Liste Hébergements*/
+
+#Hébergements_Populaires
+{
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    
+}
+#Hébergements
+{
+    background-color: #F2F2F2;
+    padding: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+    width: 75%;
+    height: auto;
+    
+    
+}
+#Liste_Hébergements
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 5px;
+}
+#Liste_Hébergements + h2
+{
+    padding-left: 6px;
+}
+#Ancre1
+{
+    padding-left: 6px;
+}
+.hebergement
+{
+    align-items: center;
+    width: 31%;
+    height: 206px;
+    font-size: 0.9em;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 40px;
+    padding-right: 1px;
+    border-radius: 20px;
+    /*box-shadow: 4px 4px 6px #aaa;*/
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0000002e; 
+    cursor: pointer; 
+}
+.hebergement img
+{
+    width: 98%;
+    height: 60%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.hebergement__txt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hebergement h3
+{
+    margin: 1px;
+    padding-left: 8px;
+}
+.hebergement p
+{
+    margin: 1px;
+    padding-left: 8px;
+}
+.hebergement a
+{
+    text-decoration: none;
+    color: black;
+}
+.hebergement:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+
+.fa-star {
+	color: #F2F2F2;
+    font-size: 12px;
+	
+}
+.fa-star.gold {
+	color: #0065FC;
+    font-size: 12px;
+}
+
+	.starsh {
+		display: inline-flex;
+		justify-content: center;
+		font-size: 3em;
+        padding-left: 8px;
+	}
+
+/*Les plus populaires*/
+#Popularité
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    height: auto;
+    width: 25%;
+    padding: 35px;
+    border-radius: 15px;
+}
+#Popularité h2 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.fa-solid.fa-star
+{
+    color: black;
+    font-size: 30px;
+}
+.list_populaires
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+.populaires
+{
+    background-color: white;
+    height: 28%;
+    width: auto;
+    font-size: 0.8em;
+    border-radius: 15px;
+    /*box-shadow: 4px 4px 6px #aaa;*/
+    align-items: center;
+    padding: 1% 10% 1% 1%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0000002e; 
+    cursor: pointer; 
+    
+}
+
+
+.populaires__txt__note
+{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 1px;
+    
+}
+.populaires__txt
+{
+    width: auto;
+    height: 90%;
+    justify-content: space-around;
+}
+.populaires h3
+{
+    margin-top: 8px;
+    
+    text-decoration: none;
+    
+}
+.populaires p
+{
+    margin-top: 10px;
+     
+    
+}
+.starsp {
+    width: auto;
+    height: 10%;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3em;
+    
+}
+.populaires a
+{
+    text-decoration: none;
+    color: black;
+}
+.populaires:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+.populaires img
+{
+    float: left;
+    width: 40%;
+    height: 99%;
+    margin-right: 4%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-fit: cover;
+    
+}
+
+/*Activités*/
+
+#Activités
+{
+    width: 100%;
+    height: 20%;
+}
+#Liste_act
+{
+    display: flex;
+    width: auto;
+    height: 445px;
+    
+}
+#Bloc3-1
+{
+    display: flex;
+    width: 50%;
+    margin-right: 50px;
+}
+#Bloc3-2
+{
+    display: flex;
+    width: 50%;
+}
+.activité1 img
+{
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    
+}
+.activité1
+{
+    background-color: white;
+    height: auto;
+    width: 50%;
+    
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+.activité1 h3
+{
+    padding-left: 13px;
+    font-size: 0.9em;
+}
+.activité1 a
+{
+    text-decoration: none;
+    color: black;
+}
+.activité1:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+.activité2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+#pomegues img
+{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#pomegues
+{
+    background-color: white;
+    height: 54%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+#pomegues h3
+{
+    padding-left: 13px;
+    font-size: 0.9em;
+}
+#pomegues a
+{
+    text-decoration: none;
+    color: black;
+}
+#pomegues:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+#friout img
+{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    
+}
+#friout
+{
+    background-color: white;
+    height: 31%;
+    margin-top: 49px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+#friout h3
+{
+    padding-left: 13px;
+    font-size: 0.9em;
+}
+#friout a
+{
+    text-decoration: none;
+    color: black;
+}
+#friout:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+#notre_dame img
+{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+#notre_dame
+{
+    background-color: white;
+    height: 41%;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+#notre_dame h3
+{
+    padding-left: 13px;
+    font-size: 0.9em;
+}
+#notre_dame a
+{
+    text-decoration: none;
+    color: black;
+}
+#notre_dame:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+#longchamp
+{
+    background-color: white;
+    margin-top: 40px;
+    height: 45%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+#longchamp img
+{
+    width: 100%;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+#longchamp h3
+{
+    padding-left: 13px;
+    font-size: 0.9em;
+}
+#longchamp a
+{
+    text-decoration: none;
+    color: black;
+}
+#longchamp:hover {
+    transform:scale(1.05);
+    transition: all 0.75s ease;
+}
+/* Footer*/
+
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+footer h3
+{
+    font-size: 1.1em;
+}
+footer ul
+{
+    font-size: 0.9em;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+.renseignements ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+.renseignements
+{
+    width: 31%;
+}
+.renseignements li
+{
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Media Queris Mobile*/
+
+@media screen and (max-width: 768px)
+{
+    #bloc_page
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    header
+     {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        margin: 0px;
+        overflow: hidden;
+        
+
+        
+     } 
+     nav
+     {
+        width: 100%;
+     }
+     header nav a:hover
+     {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        
+     }
+     nav ul
+     {
+        margin-bottom: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+        width: 100%;
+        
+        
+     } 
+     nav li
+     {
+        text-align: center;
+        width: 100%;
+     }
+     nav a
+     {
+        display: block;
+        width: 67%;
+        padding-top: 0px;
+        padding-bottom: 11px;
+        border-bottom: 3px solid #F2F2F2;
+        
+     }
+     header img 
+     {
+        
+        margin-top: 30px;
+        width: 92px;
+        height: 45px;
+        
+     }
+
+     #Corps_Page
+     {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        
+     }
+     #Recherche 
+     {
+        padding: 15px;
+        justify-content: space-around;
+        width: auto;
+        margin-right: 0px;
+        
+        
+
+     }
+     #Recherche h1
+     {
+        font-size: 25px;
+        margin-bottom: 0px;
+        width: 84%;
+        
+        
+     }
+     #Recherche p
+     {
+        
+        margin-bottom: 30px;
+        
+     }
+     #Localisation
+     {
+        width: 74%;
+        
+     }
+     
+     .fa-solid.fa-magnifying-glass
+     {
+        display: block;
+        padding-top: 2px;
+     }
+     #Recherche form
+     {
+        
+        width: 300px;
+        height: 40px;
+        margin-bottom: 25px;
+        
+     }
+     .loupe
+     {
+        display: block;
+        background-color: #0065fc;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 3px;
+        float: right;
+        height: 100%;
+        width: 14%;
+        border:0 none;
+        cursor: pointer;
+        border-radius: 10px;
+     }
+     #rechercher
+     {
+        display: none;
+        
+     }
+     .filtres
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0px;
+        width: auto;
+     }
+     .filter
+     {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+     }
+     .filtres p
+     {
+        margin-bottom: 0px;
+     }
+     
+     .button_eco
+    {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        border: 2px #f2f2f2 solid;
+        border-left: 2px transparent;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 13px;
+        padding-right: 25px;
+        width: 36%;
+    }
+    .fa-solid.fa-money-bill-wave
+    {
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 25px;
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 15px;
+    overflow: visible;
+    margin-right: 15px;
+    }
+    .button_fami
+    {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        border: 2px #f2f2f2 solid;
+        border-left: 2px transparent;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 13px;
+        padding-right: 25px;
+        width: 26%;
+    }
+    .fa-solid.fa-child-reaching
+    {
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 25px;
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 15px;
+    overflow: visible;
+    margin-right: 15px;
+    }
+    .button_rom
+    {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        border: 2px #f2f2f2 solid;
+        border-left: 2px transparent;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 13px;
+        padding-right: 25px;
+        width: 34%;
+    }
+    .fa-solid.fa-heart
+    {
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 25px;
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 15px;
+    overflow: visible;
+    margin-right: 15px;
+    }
+    .button_animaux
+    {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        border: 2px #f2f2f2 solid;
+        border-left: 2px transparent;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-bottom: 13px;
+        padding-right: 25px;
+        width: 50%;
+    }
+    .fa-solid.fa-dog
+    {
+    color: #0065FC;
+    background-color: #deebff;
+    border-radius: 25px;
+    font-size: 18px;
+    align-items: flex-start;
+    padding: 15px;
+    overflow: visible;
+    margin-right: 15px;
+    }
+    .animaux
+    {
+        width: 45%;
+    }
+     #Hébergements_Populaires
+     {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        
+     }
+     #Popularité
+     {
+        width: auto;
+        border-radius: 0px;
+        padding: 5%;
+     }
+     .populaires
+     {
+        margin-bottom: 10px;
+     }
+     #Hébergements
+     {
+        background-color: white;
+        width: auto;
+        margin-right: 0px;
+        border-radius: 0px;
+        padding: 5%;
+     }
+     #Liste_Hébergements
+     {
+        width: 100%;
+        flex-direction: column;
+     }
+     .hebergement
+     {
+        width: 100%;
+     }
+     #Activités
+     {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        padding: 5%;
+        
+     }
+     #Activités img
+     {
+        width: 100%;
+        height: 130px;
+     }
+     #Liste_act
+     {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+     }
+     #Bloc3-1
+     {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin-right: 0px;
+     }
+     #Bloc3-2
+     {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+     }
+     .activité1
+     {
+        width: auto;
+        height: 195px;
+        margin-bottom: 5%;
+        margin-right: 0px;
+     }
+     .activité2
+     {
+        width: auto;
+     }
+     #pomegues
+     {
+        width: auto;
+        height: 195px;
+        margin-bottom: 5%;
+     }
+     #notre_dame
+     {
+        width: auto;
+        height: 195px;
+        margin-bottom: 5%;
+     }
+     #friout
+     {
+        margin: 0px;
+        width: auto;
+        height: 195px;
+        margin-bottom: 5%;
+     }
+     #longchamp
+     {
+        margin: 0px;
+        width: auto;
+        height: 195px;
+        margin-bottom: 5%;
+     }
+     footer
+     {
+        flex-direction: column;
+     }
+     .renseignements
+     {
+        width: auto;
+     }
+     
+}
+
+/*Media Querries Tablette*/
+
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+    #Recherche form
+     {
+        width: 50%;
+     }
+    .filtres
+    {
+        width: auto;
+    }
+    #Hébergements_Populaires
+    {
+        display: flex;
+        flex-direction: column-reverse;        
+        width: auto;
+        
+    }
+    #Popularité
+    {
+        width: auto;
+    }
+    .populaires
+    {
+        margin-bottom: 20px;
+        height: 250px;
+    }
+    
+    #Hébergements
+    {
+        width: auto;
+        margin-top: 20px;
+        margin-right: 0px;
+        
+    }
+    #Liste_Hébergements
+    {
+        flex-wrap: nowrap;
+        padding: 0px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 30%;
+        gap: 10px;
+        
+    }
+    .hebergement
+    {
+        width: auto;
+        height: 200px;
+    }
+
+    
+    #Liste_act
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        
+    }
+    #Bloc3-1
+    {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    #Bloc3-2
+    {
+        width: auto;
+        height: auto;
+    }
+}
